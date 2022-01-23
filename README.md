@@ -1,2 +1,2 @@
 # Hercules-Kadmos
-Hercules project ETL process.
+This doc. describes ETL processes for Hercules project.
