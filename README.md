@@ -32,7 +32,7 @@ Table Name: [dbo].[v_flights]
 ***
 
 
-### Airports_data pipeline
+### Airports pipeline
 1. airports_data (PostgresDB table)
 ```
 DataBase Name:    Airports-PostgresDB
