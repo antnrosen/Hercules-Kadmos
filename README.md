@@ -6,14 +6,14 @@ This doc. describes ETL processes for Hercules project.
 ### Flights Pipeline
 1. Flights (PostgresDB table)
 ```
-DataBase:   Flights-PostgresDB
-Table Name: Fights
+DataBase Name:    Flights-PostgresDB
+Table Name:       Fights
 
 ```
 2. Azure Data Factory
 ```
-DataBase:   Flights-PostgresDB
-Table Name: Fights
+Pipeline Name: 
+Details:        Incremental ETL process. 
 
 ```
 
