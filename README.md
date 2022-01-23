@@ -61,7 +61,7 @@ Table Name: [dbo].[v_airports]
 ***
 
 
-### Airports_data pipeline
+### Aircrafts pipeline
 1. aircrafts.csv (BLOB storage)
 ```
 Tool:         Azure BLOB storage
