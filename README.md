@@ -8,19 +8,17 @@ This doc. describes ETL processes for Hercules project.
 ```
 DataBase Name:    Flights-PostgresDB
 Table Name:       Fights
-
 ```
 2. Azure Data Factory
 ```
 Pipeline Name:  flights_to_dl
 Details:        Incremental ETL process. Key=[flight_id]
-
 ```
 3. Azure DataLake
 ```
 Folder Name:  data/kadmos_dl/flights
 File Formate: parquet
-
+Mode:         append
 ```
 
 
