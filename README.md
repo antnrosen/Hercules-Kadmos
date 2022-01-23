@@ -1,5 +1,5 @@
 # Hercules project data flow.
-This document describes ETL processes for Hercules project.
+This document describes data integration process for Hercules project.
 
 ***
 
