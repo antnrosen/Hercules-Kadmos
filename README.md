@@ -4,7 +4,6 @@ This doc. describes ETL processes for Hercules project.
 ***
 
 ### Pipeline: Flights
---------------
 * Flights (PostgresDB table)
 >test
 
