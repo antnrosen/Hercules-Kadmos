@@ -3,7 +3,7 @@ This doc. describes ETL processes for Hercules project.
 
 ***
 
-### Pipeline: Flights
+### Flights Pipeline
 1. Flights (PostgresDB table)
 ```
 DataBase:   Flights-PostgresDB
