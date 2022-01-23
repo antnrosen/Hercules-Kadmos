@@ -1,4 +1,4 @@
-# _Hercules-Kadmos project data flow._
+# Hercules-Kadmos project data flow.
 This doc. describes ETL processes for Hercules project.
 
 ***
