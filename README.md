@@ -18,8 +18,8 @@ Details:        Incremental ETL process.
 ```
 3. Azure DataLake
 ```
-Pipeline Name:  flights_to_dl
-Details:        Incremental ETL process. 
+Folder Name:  data/kadmos_dl/flights
+File Formate: parquet
 
 ```
 
