@@ -60,3 +60,31 @@ Table Name: [dbo].[v_airports]
 
 ***
 
+
+### Airports_data pipeline
+1. aircrafts.csv (BLOB storage)
+```
+Tool:         Azure BLOB storage
+Folder Name:  data/files
+File Formate: csv
+File Name:    aircrafts.csv
+```
+2. Databricks & Azure Data Factory
+```
+Tool:           Azure Data Factory & Databricks
+Pipeline Name:  aircrefts_to_dl
+Details:        Full file data ETL process.
+```
+3. Azure DataLake
+```
+Folder Name:  data/kadmos_dl/aircrafts
+File Formate: parquet
+Mode:         overwrite
+```
+4. View Flights (Azure Synapse Analytics)
+```
+Tool:       Azure Synapse Serverless Pool
+Table Name: [dbo].[v_aircrafts]
+```
+
+![PlantUML model](http://www.plantuml.com/plantuml/png/RL71JW913BtFLpGS51AN3o26057YWSI3XeiXcpBRnSemitQw6lXwTsQLlNZOjjjvxwMlNKH5qVRaZADQGGC87zuLAXQooi6RMtWAmfVW5HquzXHdK1JpExWlYXpc7MHBecm7GF-UlhbHLaU0B4qGZMM5Yj1mGmbgJDX_a5KO8OiLh3LERVo2yMhpl8AeGV10an5W13OCCtZxmvKsLBJhUwUkTB-re3_GRj1zGCMzi3r6k87bfHM2r88rMWropj9eiAEkM-UWPaUGHtnytK0ZmKu7hO6-mIDbQctgZdeT7iODocTBceMcau6xPVg6PLv2WlLIBsUFJIHOUdHdPHjxgz74Vwp6gzMIVFeTtEQwRIfKAbDGFgKTS3fKSfTo6ZNdQ1Rag-xaFm00)
