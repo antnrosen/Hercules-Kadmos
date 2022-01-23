@@ -1,0 +1,11 @@
+SELECT a.[airport_code],
+       a.[airport_name_en],
+	   c.[model_en],
+       COUNT(*) num_flights
+FROM [datalake_kadmos].[dbo].[v_flights] f
+    INNER JOIN [datalake_kadmos].[dbo].[v_airports] a  ON f.[arrival_airport] = a.[airport_code]
+	LEFT JOIN [datalake_kadmos].[dbo].[v_aircrafts] c   ON f.[aircraft_code] = c.[aircraft_code]
+WHERE a.timezone = 'Europe/Samara'
+GROUP BY a.[airport_code],
+         a.[airport_name_en],
+		 c.[model_en];
