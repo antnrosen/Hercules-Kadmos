@@ -12,5 +12,15 @@ This doc. describes ETL processes for Hercules project.
 
 
 @startuml
-!includeurl http://www.plantuml.com/plantuml/proxy?src=https://github.com/antnrosen/Hercules-Kadmos/blob/main/flights_pipeline.puml
+
+Instance <|-- VulkanRootObject
+
+class Instance {
+    -- Contructors & destructors --
+    - Instance()
+    
+    -- Public methods --
+    + Initialize() : bool
+}
+
 @enduml
