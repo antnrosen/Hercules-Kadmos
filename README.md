@@ -13,7 +13,7 @@ Table Name:       Fights
 2. Azure Data Factory
 ```
 Pipeline Name:  flights_to_dl
-Details:        Incremental ETL process. 
+Details:        Incremental ETL process. Key=[flight_id]
 
 ```
 3. Azure DataLake
