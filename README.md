@@ -31,3 +31,32 @@ Table Name: [dbo].[v_flights]
 
 ***
 
+
+### Airports_data pipeline
+1. airports_data (PostgresDB table)
+```
+DataBase Name:    Airports-PostgresDB
+Table Name:       airports_data
+```
+2. Azure Data Factory
+```
+Tool:           Azure Data Factory
+Pipeline Name:  airports_to_dl
+Details:        Full file data ETL process.
+```
+3. Azure DataLake
+```
+Folder Name:  data/kadmos_dl/airports
+File Formate: parquet
+Mode:         overwrite
+```
+4. View Flights (Azure Synapse Analytics)
+```
+Tool:       Azure Synapse Serverless Pool
+Table Name: [dbo].[v_airports]
+```
+
+![PlantUML model](https://www.plantuml.com/plantuml/uml/RPBFJiCm3CRlUGfh5pQ9xW4cD6reJ1nsG0BjWgRAIzrXI9EIk4BTqzDaVwh2BadpVPyJ-wSkWg2NfZBAK2aW3ZmVFWGAzgI5dLLtyEmy7vqLD63OKfX1bitluI7BqZBl8blomheF93_QdIiiXW3PryvBo0iKX9fhYb6btFwJjC1ew8zVN923fx1w1C6zeSa8C00hXXcydxEvTWNjXfB5wY9fblRowPmlsA9GE2l25NKpqQxlO7biFC4gFhz6BSwtwKrKs1Mi6sEWP4EG-djwsq3jdPxUAj_W5wNIKfKmkquEunhzTqEIxfbE-j8jqmyihx7JJQ-jnJeGB2sQLbY74uAWmdy4uI-2dEmjrJUTUc7JP-AfzmQmmX1MEZPrqPbvN3ed8kJuHoHISOzZnpse1TcYgSml)
+
+***
+
