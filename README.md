@@ -81,7 +81,7 @@ Folder Name:  data/kadmos_dl/aircrafts
 File Formate: parquet
 Mode:         overwrite
 ```
-4. View Flights (Azure Synapse Analytics)
+4. View Aircrafts (Azure Synapse Analytics)
 ```
 Tool:       Azure Synapse Serverless Pool
 Table Name: [dbo].[v_aircrafts]
