@@ -3,4 +3,4 @@ This doc. describes ETL processes for Hercules project.
 @startuml
 !includeurl https://github.com/antnrosen/Hercules-Kadmos/blob/main/flights_pipeline.puml
 @enduml
-![PlantUML model]( https://github.com/antnrosen/Hercules-Kadmos/blob/main/flights_pipeline.puml)
+![UML] ( https://github.com/antnrosen/Hercules-Kadmos/blob/main/flights_pipeline.puml)
