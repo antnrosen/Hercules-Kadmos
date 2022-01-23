@@ -2,7 +2,7 @@
 left to right direction
 ' Horizontal lines: -->, <--, <-->
 ' Vertical lines: ->, <-, <->
-title airports_data pipeline
+title Airports pipeline
 
 object "airports_data (PostgresDB table)" as i
 i : [airport_code]

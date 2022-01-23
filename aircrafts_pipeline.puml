@@ -2,7 +2,7 @@
 left to right direction
 ' Horizontal lines: -->, <--, <-->
 ' Vertical lines: ->, <-, <->
-title airports_data pipeline
+title Aircrafts pipeline
 
 object "aircrafts.csv (BLOB storage)" as i
 i : [aircraft_code]
