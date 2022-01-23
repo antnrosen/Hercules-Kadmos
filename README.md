@@ -2,7 +2,7 @@
 This doc. describes ETL processes for Hercules project.
 
 
-#  Заголовок первого уровня #
+
 ### Заголовок третьего уровня ###
 ###### Заголовок шестого уровня ######
 
