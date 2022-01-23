@@ -10,10 +10,12 @@ DataBase:   Flights-PostgresDB
 Table Name: Fights
 
 ```
+2. Azure Data Factory
+```
+DataBase:   Flights-PostgresDB
+Table Name: Fights
 
-
-
-
+```
 
 
 
