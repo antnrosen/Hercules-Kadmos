@@ -10,4 +10,4 @@ This doc. describes ETL processes for Hercules project.
 
 
 
-![Class Diagram] 
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://github.com/antnrosen/Hercules-Kadmos/blob/main/flights_pipeline.puml)
