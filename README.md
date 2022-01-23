@@ -1,4 +1,4 @@
-# Hercules project data flow.
+# "Hercules" project data flow.
 This doc. describes ETL processes for Hercules project.
 
 ***
