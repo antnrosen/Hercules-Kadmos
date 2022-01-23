@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+' Horizontal lines: -->, <--, <-->
+' Vertical lines: ->, <-, <->
+title airports_data pipeline
+
+object "airports_data (PostgresDB table)" as i
+i : [airport_code]
+i : [airport_name]
+i : [city]
+i : [coordinates]
+i : [timezone]
+
+object "Azure Data Factory" as a
+a : Full file data ETL proc.
+
+object "Azure DataLake" as f
+f : airports (parquet file.)
+
+object "View Airports (Azure Synapse Analytics)" as s
+s : [airport_code]
+s : [airport_name_en]
+s : [airport_name_ru]
+s : [city_en]
+s : [city_ru]
+s : [coordinates]
+s : [timezone]
+s : [update_datetime]
+
+i --> a
+a --> f
+f --> s
+@enduml

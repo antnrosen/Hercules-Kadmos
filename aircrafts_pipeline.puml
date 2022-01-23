@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+' Horizontal lines: -->, <--, <-->
+' Vertical lines: ->, <-, <->
+title airports_data pipeline
+
+object "aircrafts.csv (BLOB storage)" as i
+i : [aircraft_code]
+i : [model]
+i : [range]
+
+object "Databricks & Azure Data Factory" as a
+a : Full file data ETL proc.
+
+object "Azure DataLake" as f
+f : aircrafts (parquet file.)
+
+object "View Airports (Azure Synapse Analytics)" as s
+s : [aircraft_code]
+s : [model_en]
+s : [range]
+s : [update_datetime]
+
+i --> a
+a --> f
+f --> s
+@enduml
